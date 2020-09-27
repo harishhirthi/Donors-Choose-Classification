@@ -11,6 +11,12 @@ The goal of the competition is to predict whether or not a DonorsChoose.org proj
 ### Metrics: ROC_AUC Curve, AUC score.
 
 ## Results:
+| Vectorizer | Model  |test AUC|
+|------------|--------|-------|
+|    BOW   |    NB  |0.6904 |
+|    TFIDF |    DT  | 0.8297 |
+|    TFIDFW2V |    GBDT  | 0.8825 |
+
 Gradient Boosted Decision Tress with TFIDFW2V gives the AUC score of 0.8825 on Test data.
 
 ## Contains 5 files:
