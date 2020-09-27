@@ -13,7 +13,7 @@ The goal of the competition is to predict whether or not a DonorsChoose.org proj
 ## Results:
 Gradient Boosted Decision Tress with TFIDFW2V gives the AUC score of 0.8825 on Test data.
 
-## Contains files:
+## Contains 5 files:
 1) EDA.ipynb – Exploratory Data Analysis on Data.
 2) Preprocessing.ipynb – Pre-processing the Nominal features and Text data.
 3) NB.ipynb – Naive Bayes on processed data.
