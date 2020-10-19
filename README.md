@@ -16,13 +16,15 @@ The goal of the competition is to predict whether or not a DonorsChoose.org proj
 |    BOW   |    NB  |0.6904 |
 |    TFIDF |    DT  | 0.8297 |
 |    TFIDFW2V |    GBDT  | 0.8825 |
+|    - |    LSTM + Conv1D  | 0.7705 |
 
 Gradient Boosted Decision Tress with TFIDFW2V gives the AUC score of 0.8825 on Test data.
 
-## Contains 5 files:
+## Contains 6 files:
 1) EDA.ipynb – Exploratory Data Analysis on Data.
 2) Preprocessing.ipynb – Pre-processing the Nominal features and Text data.
 3) NB.ipynb – Naive Bayes on processed data.
 4) DT.ipynb – Decision Tress on processed data.
 5) GBDT.ipynb – Gradient Boosted Trees(XGBoost) on processed data.
+6) LSTM.ipynb - LSTM and Conv1D on processed data.
 
